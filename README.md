@@ -94,8 +94,7 @@ RoboIAP allows for the liquid consumption analysis with the resolution of a seco
 
 The most labor intensive method of analysis is to manually identify when the bouts start and end. Indeed, it is readily evident when a rodent consumes alcohol by looking at the liquid level data. However, this is prone to human error and may yield incongruous results when performed by another individual. Furthermore, this method is difficult to scale to large datasets. Thus, this method is to be avoided unless labeling data for machine learning.
 
-PICTURE NEEDED
-Voltage data showing obvious bouts
+
 
 ### Best Best-Fit Line (BBFL):
 
