@@ -97,7 +97,7 @@ The most labor intensive method of analysis is to manually identify when the bou
 PICTURE NEEDED
 Voltage data showing obvious bouts
 
-## Best Best-Fit Line (BBFL):
+### Best Best-Fit Line (BBFL):
 
 The BBFL technique finds the best-fit line that most properly matches a drop in voltage data. This is achieved by breaking the data up into overlapping segments and calculating the best-fit lines between all points in the segment. Several start and end points extracted from a matrix of a local minima are assessed for sufficient drops in voltage and sufficient duration. A benefit of this approach is a concrete definition of a bout: a bout start and end is defined as the indexes that correspond to a local minima of a least squares error matrix that contains the bout that has the greatest drop in voltage. A drawback of the method is the computation time. The algorithm can be sped up by only feeding it segments that are likely to have a bout, avoiding unnecessary computation.
 
