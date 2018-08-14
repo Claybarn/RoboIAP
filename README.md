@@ -70,15 +70,14 @@ Troubleshooting tip: On the contrary, attempting to insert the rubber stopper to
 
 The voltage output of the sensors scales linearly with the calibrated liquid level. Thus, proper calibration is essential for generating accurate results. The sensors must be calibrated both wet and dry. Accurate results can be obtained by dry calibrating the sensor once before the month long experiment begins and wet calibrating before every trial. The “dry” terminology may be misleading. As residual liquid would left in the tube if a rodent were to completely consume all the liquid in the bottle, the sensor would not be completely dry. Rather, a sensor is dry calibrated after filling a bottle and then emptying it. Quickly after emptying, the rubber stopper should be pressed firmly into the tube with the sensor wire straight as possible before holding down the dry calibrate button on the vegetronix sensor until a flashing red LED is observed (about 3 seconds). Thus, before the desired start day for the experiment, every bottle must be filled, emptied and dry calibrated. Before every trial, a wet calibration is done. This is achieved by clogging the sipper with a silicone stopper, filling every tube with an automatic pipette, inserting the rubber stopper into the top of the bottle, then holding down the wet calibration button until a flashing red LED is observed (about 3 seconds). 
 
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/exemplarBouts.jpg)
+
 Troubleshooting tip: If no red flashing LED is observed after 3 seconds, there are several possibilities.	
-The sensor is not powered (damaged wire, short circuited, etc)
-The button is not actually being pressed (the buttons are small and must be pressed firmly)
-The sensor has been damaged (can occur if liquid falls on the electronic components of the sensor)
+1. The sensor is not powered (damaged wire, short circuited, etc)
+2. The button is not actually being pressed (the buttons are small and must be pressed firmly)
+3. The sensor has been damaged (can occur if liquid falls on the electronic components of the sensor)
 
 Note: At present, water measurements are taken by weight. Thus, the water bottle is weighed before and after every experiment. The RoboIAP project plans to incorporate water level sensing in the near future. 
-
-PICTURES NEEDED
-Wet and dry calibration buttons
 
 ### Data Recorded:
 
