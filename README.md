@@ -94,15 +94,13 @@ RoboIAP allows for the liquid consumption analysis with the resolution of a seco
 
 The most labor intensive method of analysis is to manually identify when the bouts start and end. Indeed, it is readily evident when a rodent consumes alcohol by looking at the liquid level data. However, this is prone to human error and may yield incongruous results when performed by another individual. Furthermore, this method is difficult to scale to large datasets. Thus, this method is to be avoided unless labeling data for machine learning.
 
-
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/exemplarBouts.jpg)
 
 ### Best Best-Fit Line (BBFL):
 
 The BBFL technique finds the best-fit line that most properly matches a drop in voltage data. This is achieved by breaking the data up into overlapping segments and calculating the best-fit lines between all points in the segment. Several start and end points extracted from a matrix of a local minima are assessed for sufficient drops in voltage and sufficient duration. A benefit of this approach is a concrete definition of a bout: a bout start and end is defined as the indexes that correspond to a local minima of a least squares error matrix that contains the bout that has the greatest drop in voltage. A drawback of the method is the computation time. The algorithm can be sped up by only feeding it segments that are likely to have a bout, avoiding unnecessary computation.
 
-![alt text](https://github.com/Claybarn/RoboIAP/blob/master/exemplarBouts.jpg)
-
-Machine Learning Method:
+### Machine Learning Method:
 
 As the data from several experiments has been analyzed by hand, there is ample data for machine learning applications. RoboIAP plans to release some form of machine learning for bout analysis in the near future.
 
