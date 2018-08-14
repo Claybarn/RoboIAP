@@ -5,7 +5,7 @@
 The RoboIAP project seeks to automate (robo) and improve upon how a 24-hour intermittent access paradigm (IAP) is run. Experiment hardware, experiment software and post-hoc data analysis will be covered on this page. At present, RoboIAP improves upon IAP by collecting information on how rodents consume alcohol in a 24-hour trial. By measures the liquid level every second, individual bouts and various bout characteristics can be analyzed. Thus, RoboIAP presents an improvement upon how IAP is run.
 
 The rest of this page is broken down into experiment hardware, experiment software, running the experiment and post-hoc analysis. Each section is further broken down into subsections, one being an overview with the others being specific to the section, allowing for expounding on the pertinent details.
-```
+
 ## Experiment Hardware
 
 ### Overview:
@@ -33,7 +33,7 @@ Sensor in tube
 Silicone rubber stoppers
 On rack picture
 Circuit
-```
+
 ## Experimental Software
 
 ### Overview:
@@ -51,7 +51,7 @@ The setup function of an Arduino sketch is only run once upon turning the microc
 ### Loop():
 
 The loop function is run continuously after the setup function runs its course. In this function, the data is written to the SD card and the program checks for button presses until this iteration of the loop function has been running for a second. Upon completion, the loop function runs again, ensuring the data is recorded every second.
-```
+
 ## Running the Experiment
 
 ### Overview:
@@ -83,7 +83,7 @@ Wet and dry calibration buttons
 ### Data Recorded:
 
 The starting and ending volumes as measured by the graduated bottle are necessary for the voltage to liquid level conversion. Thus, they should be recorded immediately after the sipper is put on the rodent cage and immediately before the sipper is taken off of the rodent cage.
-```
+
 ## Post-Hoc Analysis
 
 ### Overview:
