@@ -2,15 +2,15 @@
 
 ## Introduction
 
-The RoboIAP project seeks to automate (robo) and improve upon how a 24-hour intermittent access paradigm (IAP) is run. Experiment hardware, experiment software and post-hoc data analysis will be covered on this page. At present, RoboIAP improves upon IAP by collecting information on how rodents consume alcohol in a 24-hour trial. By measures the liquid level every second, individual bouts and various bout characteristics can be analyzed. Thus, RoboIAP presents an improvement upon how IAP is run.
+The RoboIAP project seeks to automate (robo) and improve upon how a 24-hour intermittent access paradigm (IAP) is run. However, the device and procedures described here are applicable to most procdures where drinking is measured. On this page, we will explain the experimental hardware, software, and post-hoc data analysis. At present, RoboIAP improves upon IAP by collecting information on how rodents consume alcohol in a 24-hour trial. Measuring the liquid level every second, individual bouts and various bout characteristics can be analyzed. Thus, RoboIAP presents an improvement upon how IAP is run.
 
-The rest of this page is broken down into experiment hardware, experiment software, running the experiment and post-hoc analysis. Each section is further broken down into subsections, one being an overview with the others being specific to the section, allowing for expounding on the pertinent details.
+The rest of this page is broken down into experiment hardware, experiment software, running the experiment, and post-hoc analysis. Each section is further broken down into subsections, one being an overview with the others being specific to the section, allowing for expounding on the pertinent details.
 
 ## Experiment Hardware
 
 ### Overview:
 
-All hardware components can be found in the parts list and the details of the setup will be hashed out below. Briefly, A microcontroller (Arduino Uno) collects analog data from multiple vegetronix liquid level sensors and stores the data on an SD card via a data logging shield. The sensor wire is immersed in a graduated custom bottle in order to sense the level of liquid. At the other end, the bottle is connected via silicone tubing to a sipper. Thorough sealing with a rubber stopper and silicone gel creates the airtight chamber necessary for the sipper to properly function. As the rodents drink, the liquid level falls and is detected by the sensor for storage on the SD card. As the rodents cannot be given access simultaneously, a button is used to act as a timestamp, facilitating trial alignment between animals. 
+All hardware components can be found in the parts list and the details of the setup will be described out below. Briefly, A microcontroller (Arduino Uno) collects analog data from multiple Vegetronix liquid level sensors and stores the data on an SD card via a data logging shield. The sensor wire is immersed in a graduated custom bottle in order to sense the level of liquid. At the other end, the bottle is connected via silicone tubing to a sipper. Thorough sealing with a rubber stopper and silicone gel creates the airtight chamber necessary for the sipper to properly function. As the rodents drink, the liquid level falls and is detected by the sensor for storage on the SD card. A button has also been added to the sensor, which provides a timestamp each time it is pressed. We have used this to timestamp the insertion of the sipper into the homecage, which facilitates post-hoc analysis. 
 
 ### Arduino/SD Shield:
 
@@ -18,11 +18,11 @@ Depending on the SD shield purchased, headers may need to be soldered on. If so,
 
 ### Bottles:
 
-The bottles are constructed from 40 mL Fisher brand? automatic pipette tips. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. 
+The bottles are constructed from 40 mL Fisher brand? pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. 
 
 ### Sensors:
 
-The vegetronix sensor wiring is not intuitive. The black wire of the sensor is the signal while the silver (unsheathed) wire is the ground. The sensors are powered by the 5 volt power pin of the Arduino and also grounded with the Arduino. The black wire of the sensor is connected to an analog port on the Arduino. This wiring can be seen in the diagram and image below. 
+The Vegetronix sensor wiring is not intuitive. The black wire of the sensor is the signal while the silver (unsheathed) wire is the ground. The sensors are powered by the 5 volt power pin of the Arduino and also grounded with the Arduino. The black wire of the sensor is connected to an analog port on the Arduino. This wiring can be seen in the diagram and image below. 
 
 ### Button:
 
