@@ -10,7 +10,7 @@ The rest of this page is broken down into experiment hardware, experiment softwa
 
 ### Overview:
 
-All hardware components can be found in the parts list and the details of the setup will be described out below. Briefly, A microcontroller (Arduino Uno) collects analog data from multiple Vegetronix liquid level sensors and stores the data on an SD card via a data logging shield. The sensor wire is immersed in a graduated custom bottle in order to sense the level of liquid. At the other end, the bottle is connected via silicone tubing to a sipper. Thorough sealing with a rubber stopper and silicone gel creates the airtight chamber necessary for the sipper to properly function. As the rodents drink, the liquid level falls and is detected by the sensor for storage on the SD card. A button has also been added to the sensor, which provides a timestamp each time it is pressed. We have used this to timestamp the insertion of the sipper into the homecage, which facilitates post-hoc analysis. 
+All hardware components can be found in the parts list (list coming soon) and the details of the setup will be described out below. Briefly, A microcontroller (Arduino Uno) collects analog data from multiple Vegetronix liquid level sensors and stores the data on an SD card via a data logging shield. The sensor wire is immersed in a graduated custom bottle in order to sense the level of liquid. At the other end, the bottle is connected via silicone tubing to a sipper. Thorough sealing with a rubber stopper and silicone gel creates the airtight chamber necessary for the sipper to properly function. As the rodents drink, the liquid level falls and is detected by the sensor for storage on the SD card. A button has also been added to the sensor, which provides a timestamp each time it is pressed. We have used this to timestamp the insertion of the sipper into the homecage, which facilitates post-hoc analysis. 
 
 ### Arduino/SD Shield:
 
@@ -18,7 +18,7 @@ Depending on the SD shield purchased, headers may need to be soldered on. If so,
 
 ### Bottles:
 
-The bottles are constructed from 40 mL Fisher brand? pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. 
+The bottles are constructed from 25mL Fisher brand pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. 
 
 ### Sensors:
 
