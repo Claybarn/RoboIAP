@@ -14,15 +14,15 @@ All hardware components can be found in the parts list (list coming soon) and th
 
 ### Arduino/SD Shield:
 
-Depending on the SD shield purchased, headers may need to be soldered on. If so, it is recommended to use “helping hands” rather than soldering while the headers are in the Arduino, as the heat can damage the analog ports. Wires are soldered into the metal rings of the SD shield, offering superior stability over the standard female headers of the Arduino. The SD shield takes a 3 volt CR1220 battery. A SD to microSD adapter is used with the SD shield to allow for storage on the now commonplace microSD. The sketch is uploaded to the Arduino via a A-B USB cable. 
+Depending on the SD shield purchased, headers may need to be soldered on. If so, it is recommended to use “helping hands” rather than soldering while the headers are in the Arduino, as the heat can damage the analog ports. Wires are soldered into the metal rings of the SD shield, offering superior stability over the standard female headers of the Arduino. The SD shield takes a 3 volt CR1220 battery. A SD to microSD adapter is used with the SD shield to allow for storage on the now commonplace microSD. The sketch is uploaded to the Arduino via a A-B USB cable.
 
 ### Bottles:
 
-The bottles are constructed from 25mL Fisher brand pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. 
+The bottles are constructed from 25mL Fisher brand pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. [INSERT BOTTLE PIC HERE]
 
 ### Sensors:
 
-The Vegetronix sensor wiring is not intuitive. The black wire of the sensor is the signal while the silver (unsheathed) wire is the ground. The sensors are powered by the 5 volt power pin of the Arduino and also grounded with the Arduino. The black wire of the sensor is connected to an analog port on the Arduino. This wiring can be seen in the diagram and image below. 
+The Vegetronix sensor wiring is not intuitive. The black wire of the sensor is the signal while the silver (unsheathed) wire is the ground. The sensors are powered by the 5 volt power pin of the Arduino and also grounded with the Arduino. The black wire of the sensor is connected to an analog port on the Arduino. This wiring can be seen in the diagram and image below. [INSERT SENSOR PIC HERE]
 
 ### Button:
 
@@ -31,7 +31,7 @@ The button, when pressed, connects a 3.3 volt current to digital pin 2 on the ar
 PICTURES NEEDED 
 Sensor in tube
 Silicone rubber stoppers
-On rack picture
+On rack picture*
 Circuit
 
 ## Experimental Software
