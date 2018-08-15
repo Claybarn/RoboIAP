@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The RoboIAP project seeks to automate (robo) and improve upon how a 24-hour intermittent access paradigm (IAP) is run. However, the device and procedures described here are applicable to most procdures where drinking is measured. On this page, we will explain the experimental hardware, software, and post-hoc data analysis. At present, RoboIAP improves upon IAP by collecting information on how rodents consume alcohol in a 24-hour trial. Measuring the liquid level every second, individual bouts and various bout characteristics can be analyzed. Thus, RoboIAP presents an improvement upon how IAP is run.
+The RoboIAP project seeks to automate (robo) and improve upon how a 24-hour intermittent access paradigm (IAP) is run. However, the device and procedures described here are applicable to most procedures where drinking is measured. On this page, we will explain the experimental hardware, software, and post-hoc data analysis. At present, RoboIAP improves upon IAP by collecting information on how rodents consume alcohol in a 24-hour trial. Measuring the liquid level every second, individual bouts and various bout characteristics can be analyzed. Thus, RoboIAP presents an improvement upon how IAP is run.
 
 The rest of this page is broken down into experiment hardware, experiment software, running the experiment, and post-hoc analysis. Each section is further broken down into subsections, one being an overview with the others being specific to the section, allowing for expounding on the pertinent details.
 
