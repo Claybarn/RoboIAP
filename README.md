@@ -18,7 +18,9 @@ Depending on the SD shield purchased, headers may need to be soldered on. If so,
 
 ### Bottles:
 
-The bottles are constructed from 25mL Fisher brand pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. [INSERT BOTTLE PIC HERE]
+The bottles are constructed from 25mL Fisher brand pipettes. Each tube is cut 2 inches from each end with a saw. ¼ inch diameter rubber stoppers with a 2mm diamter hole are siliconed with the sensor wire running through the hole. This is done in such a way that when the rubber stopper is firmly inserted into the tube, the end of the taught sensor wire does not clog the other opening of the bottle. ½ inch diamater silicone tubing is inserted over the tapered end of the tube. The other end of the silicone tube is attached to the sipper. These must be placed as upright as possible in order to ensure accurate readings.
+
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/sipperTube.png)
 
 ### Sensors:
 
@@ -36,7 +38,7 @@ On rack picture*
 ![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/IAP_bb.jpg)
 ![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/rubberStopper.JPG)
 ![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/sipper.JPG)
-![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/sipperTube.png)
+
 ## Experimental Software
 
 ### Overview:
