@@ -32,8 +32,8 @@ PICTURES NEEDED
 Sensor in tube
 Silicone rubber stoppers
 On rack picture*
-Circuit
 
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/IAP_bb.jpg)
 ## Experimental Software
 
 ### Overview:
