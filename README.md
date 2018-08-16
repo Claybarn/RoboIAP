@@ -24,15 +24,13 @@ The bottles are constructed from 25mL Fisher brand pipettes. Each tube is cut 2 
 
 ### Sensors:
 
-The Vegetronix sensor wiring is not intuitive. The black wire of the sensor is the signal while the silver (unsheathed) wire is the ground. The sensors are powered by the 5 volt power pin of the Arduino and also grounded with the Arduino. The black wire of the sensor is connected to an analog port on the Arduino. This wiring can be seen in the diagram and image below. [INSERT SENSOR PIC HERE]
+The Vegetronix sensor wiring is not intuitive. The black wire of the sensor is the signal while the silver (unsheathed) wire is the ground. The sensors are powered by the 5 volt power pin of the Arduino and also grounded with the Arduino. The black wire of the sensor is connected to an analog port on the Arduino. This wiring can be seen in the diagram below.
 
 ### Button:
 
 The button, when pressed, connects a 3.3 volt current to digital pin 2 on the arduino and the ground through a 220 ohm resistor. This is achieved with the wiring shown in the diagram and image below.
 
 PICTURES NEEDED 
-Sensor in tube
-Silicone rubber stoppers
 On rack picture*
 
 ![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/IAP_bb.jpg)
@@ -75,7 +73,7 @@ Troubleshooting tip: On the contrary, attempting to insert the rubber stopper to
 
 The voltage output of the sensors scales linearly with the calibrated liquid level. Thus, proper calibration is essential for generating accurate results. The sensors must be calibrated both wet and dry. Accurate results can be obtained by dry calibrating the sensor once before the month long experiment begins and wet calibrating before every trial. The “dry” terminology may be misleading. As residual liquid would left in the tube if a rodent were to completely consume all the liquid in the bottle, the sensor would not be completely dry. Rather, a sensor is dry calibrated after filling a bottle and then emptying it. Quickly after emptying, the rubber stopper should be pressed firmly into the tube with the sensor wire straight as possible before holding down the dry calibrate button on the Vegetronix sensor until a flashing red LED is observed (about 3 seconds). Thus, before the desired start day for the experiment, every bottle must be filled, emptied and dry calibrated. Before every trial, a wet calibration is done. This is achieved by clogging the sipper with a silicone stopper, filling every tube with an automatic pipette, inserting the rubber stopper into the top of the bottle, then holding down the wet calibration button until a flashing red LED is observed (about 3 seconds). 
 
-![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/calibrationButtons.jpeg)
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/sensorInternalDescription.jpeg)
 
 Troubleshooting tip: If no red flashing LED is observed after 3 seconds, there are several possibilities.	
 1. The sensor is not powered (damaged wire, short circuited, etc)
