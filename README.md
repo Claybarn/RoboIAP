@@ -34,6 +34,9 @@ Silicone rubber stoppers
 On rack picture*
 
 ![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/IAP_bb.jpg)
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/rubberStopper.JPG)
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/sipper.JPG)
+![alt text](https://github.com/Claybarn/RoboIAP/blob/master/pictures/sipperTube.png)
 ## Experimental Software
 
 ### Overview:
